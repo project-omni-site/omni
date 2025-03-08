@@ -1,0 +1,26 @@
+{
+    "name": "project-omni-site/omni",
+    "autoload": {
+        "psr-4": {
+            "ProjectOmniSite\\Omni\\": "src/"
+        }
+    },
+    "bin": [
+        "omni.php"
+    ],
+    "authors": [
+        {
+            "name": "Tadeu Barbosa",
+            "email": "tadeufbarbosa@gmail.com"
+        }
+    ],
+    "require": {
+        "project-omni-site/modulos-helpers": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../helpers"
+        }
+    ]
+}
